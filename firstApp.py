@@ -675,7 +675,7 @@ print(f"Names of my turtles are {turtle_Loo.name} and {turtle_John.name}!")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-turtle_create = Turtle()
+turtle_create = Turtle()    # Using full access to class
 name_of_turtle = str(input("Enter name of a turtle: "))
 age_of_turtle = None
 check_correct_name = True
@@ -694,19 +694,18 @@ print(
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-print(f"Showing info about turtle:")
+print(f"Showing info about turtle:")    # Using method to show data
 turtle_Loo.get_data()
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-empty_turtle = Turtle()
-print(
-    f"Name of a turtle by default = {empty_turtle.name}, Age of the turtle by default = {empty_turtle.age} and Color = {empty_turtle.color}")
+empty_turtle = Turtle() # Deafult data about class
+print(f"Name of a turtle by default = {empty_turtle.name}, Age of the turtle by default = {empty_turtle.age} and Color = {empty_turtle.color}")
 print()
 
 
 # ---------------------------------------------------------------------------------------------------------------------
-class Car:
+class Car:  # Quite a lot of subclasses about cars
     brand = None
     place_of_creation = None
     date_of_create = None
@@ -765,7 +764,7 @@ print()
 
 
 # ---------------------------------------------------------------------------------------------------------------------
-def validator(func):
+def validator(func):    # Wrapping function
     def wrapper(url):
         if "." in url:
             func(url)
@@ -785,7 +784,7 @@ open_url(url_enter)
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-list_of_stars = []
+list_of_stars = []  # Just funny things with loops
 for i in range(10):
     list_of_stars.append('*')
 
@@ -797,3 +796,4 @@ for rows in range(len(list_of_stars)):
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
+print(f"Thanks all for seeing this perfect sh*t. THAT'S IT I GUESS =)")
