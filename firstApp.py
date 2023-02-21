@@ -797,3 +797,7 @@ print()
 
 # ---------------------------------------------------------------------------------------------------------------------
 print(f"Thanks all for seeing this perfect sh*t. THAT'S IT I GUESS =)")
+print()
+
+# ---------------------------------------------------------------------------------------------------------------------
+print(f"After this small course I'll create my own data base. So keep in touch with me boizzzz!")
