@@ -11,7 +11,7 @@ import my_module  # My own module
 
 from math import sqrt
 
-print("My company name is Devult")  # Name of my company
+print("My name is Artem")  # My name is Artem
 # first comment
 print("Number:", 7620, "and number:", 1337)  # Favorite number 7620, and 1337 is streaming
 print()
@@ -67,12 +67,12 @@ user_name = input("Enter your name: ")  # Enter a name
 print("Hello, ", user_name, "!", sep="")  # Show the name
 print()
 # ---------------------------------------------------------------------------------------------------------------------
-pi = 3.14159265358979
+pi = 3.14159265358979   # Number PI
 print("Number pi = ", pi, sep="")
 print()
 # ---------------------------------------------------------------------------------------------------------------------
-company_name = "Devult"
-print("Best company in the world is ", company_name, sep="")
+company_name = "Artem"  # My name + concatenation
+print("Best name in the world is ", company_name, sep="")
 print()
 # ---------------------------------------------------------------------------------------------------------------------
 say_truth = True
@@ -80,7 +80,7 @@ print("Are you telling me the truth? And = ", say_truth, sep="")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-any_number = 1337
+any_number = 1337   # Just numbers and concatenations
 any_string = "Twitch = "
 print("Cast to string: ", any_string + str(any_number), sep="")
 
@@ -90,19 +90,19 @@ print("Cast to number: ", normal_number + int(normal_string), sep="")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-first_number = int(input("Input first number: "))
+first_number = int(input("Input first number: "))   # Sum of 2 nums
 second_number = int(input("Input second number: "))
 result_of_plus = first_number + second_number
 print("Sum of your numbers ", first_number, " and ", second_number, " = ", result_of_plus, sep="")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-multiple_string = "Halo! "
+multiple_string = "Halo! "  # Multiplying strings
 print(multiple_string * 5, sep="")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-check_age = int(input("Enter your age: "))
+check_age = int(input("Enter your age: "))  # Age checker
 if check_age >= 10:
     if check_age >= 14:
         if check_age >= 18:
@@ -119,7 +119,7 @@ else:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-are_you_happy = bool(input("Write \'True\' for happiness and \'False\' for bad day: "))
+are_you_happy = bool(input("Write \'True\' for happiness and \'False\' for bad day: "))  # Happy happy happy
 if not are_you_happy:
     print("Get better bro!")
 else:
@@ -127,7 +127,7 @@ else:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-enter_0_or_1 = int(input("Enter 0 or 1: "))
+enter_0_or_1 = int(input("Enter 0 or 1: "))  # 0 or 1
 if enter_0_or_1 == 0:
     print("Number is 0!")
 elif enter_0_or_1 == 1:
@@ -137,8 +137,8 @@ else:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-favorite_number = int(input("Enter my favorite number = "))
-streaming_number = int(input("Enter a streaming number = "))
+favorite_number = int(input("Enter my favorite number = "))  # Favorite number
+streaming_number = int(input("Enter a streaming number = "))    # Favorite stream number
 if (favorite_number == 7620) and (streaming_number == 1337):
     print("Good afternoon, ms. Zarubin-Artem!")
 else:
@@ -146,7 +146,7 @@ else:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-users_data = str(input("Enter your name: "))
+users_data = str(input("Enter your name: "))    # Enter name
 name_of_user = "Hello, " + users_data + "!" if users_data == "Artem" else "Sorry, you are not Artem!"
 print(name_of_user)
 print()
@@ -157,13 +157,13 @@ for i in range(0, 26, 5):  # Using loop for first time
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-word = "Devult"  # Fav company
+word = "Tesla"  # Fav company
 for i in range(len(word)):
     print(i)
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-check_word = str(input("Enter any sentence: "))  # find letter program
+check_word = str(input("Enter any sentence: "))  # Find letter program
 count_letters = 0
 for i in check_word:
     if i == "o":
@@ -210,7 +210,7 @@ else:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-array_of_nums = [7, 6, 2, 0, 1, 3, 3, 7, "Devult", 3.14159265358979, True]  # All types in one list
+array_of_nums = [7, 6, 2, 0, 1, 3, 3, 7, "Tesla", 3.14159265358979, True]  # All types in one list
 print("Showing array: ", array_of_nums, sep="")
 array_of_nums[3] = 'O'
 print("Showing modified array: ", array_of_nums, sep="")
@@ -312,18 +312,18 @@ print("I cut line \'", word_cut, "\' to = ", word_cut[0:6])
 print("Cut line \'", funny_cutting, "\' to = ", funny_cutting[0::2])
 print()
 
-line_of_funny_things = ["Stream-sniping", 1337, "rizz", "Ivi", 7620, "Devult"]
+line_of_funny_things = ["Stream-sniping", 1337, "rizz", "Ivi", 7620, "Tesla"]
 print("Cutting the whole list: ", line_of_funny_things[2:])
 
 print("Reversing whole list only with print = ", line_of_funny_things[::-1])
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-first_time_tuple = (7620, "Devult", 1337, "Valorant", "Devult", "Devult", "Devult")  # It's a tuple and not a list.
+first_time_tuple = (7620, "Tesla", 1337, "Valorant", "Tesla", "Tesla", "Tesla")  # It's a tuple and not a list.
 # It's like constant list
 
 print("Second element of tuple is \'", first_time_tuple[1], "\'", sep="")
-print("How much \'Devult\' words in tuple = ", first_time_tuple.count("Devult"), sep="")
+print("How much \'Tesla\' words in tuple = ", first_time_tuple.count("Tesla"), sep="")
 print("There is ", len(first_time_tuple), " elements in the tuple = ", first_time_tuple, sep="")
 print()
 
@@ -340,7 +340,7 @@ print("But now it's a tuple = ", tuple_of_list, sep="")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-letter_tuple = "Best company is Devult!"  # Tupling sentence
+letter_tuple = "Best company is Tesla!"  # Tupling sentence
 print("Tupling a sentence = ", tuple(letter_tuple), sep="")
 print()
 
@@ -418,7 +418,7 @@ data_set = {"Programming", "Music", "Cycling", "Sudoku", "Meditation", "Music", 
 print("Showing set with deleted elements = ", data_set)
 
 data_set.add("Best Friend")
-data_set.update(["Devult"])
+data_set.update(["Tesla"])
 data_set.remove("Meditation")
 print("Updated set = ", data_set)
 
@@ -531,10 +531,11 @@ print("Our new brand list made out of random numbers = ", equal_to_list)
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-first_file = open('Devult Data/Devult.txt', 'w')  # Using files for first time
+first_file = open('Python Basics/Base.txt', 'w')  # Using files for first time
 
-first_file.write("Devult company is the best company ever!\n")
-first_file.write("This company was created by Artem Zarubin! With help of his friend MK and MMM!\n")
+first_file.write("Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code "
+                 "readability with the use of significant indentation.!\n")
+first_file.write("Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.!\n")
 
 data_put = str(input("Enter any text to append it in file: "))
 first_file.write(data_put + "\n")
@@ -543,12 +544,12 @@ first_file.close()
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-editing_file = open('Devult Data/Devult.txt', 'r')  # Reading file for first time
+editing_file = open('Python Basics/Base.txt', 'r')  # Reading file for first time
 print(editing_file.read())
 editing_file.close()
 
 # ---------------------------------------------------------------------------------------------------------------------
-with open('Devult Data/Devult.txt', 'a',
+with open('Python Basics/Base.txt', 'a',
           encoding="utf-8") as file_write:  # Using open file better like this and append data
     file_write.write("But only 1 man really want to success, it's Artem Zarubin!\n")
 
@@ -588,7 +589,7 @@ while false_until_try:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-try:
+try:    # Double error block catcher
     first_division = int(input("Input first number for divide it: "))
     second_division = int(input("Input second number for divide it: "))
     print(f"Result of your division is {first_division / second_division}")
@@ -625,7 +626,7 @@ print(f"You are using: {platform.system()}")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-try:
+try:    # Else statement to root number
     enter_math_sqrt = int(input("Enter any number to root it: "))
 except ValueError:
     print("Wrong format!")
@@ -634,13 +635,13 @@ else:
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-print(
+print(  # Using module for first time
     f"{my_module.hello_func()} Using my module for first time. My name is {my_module.name} and I've created {my_module.company_name}")
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-cowsay.cow("Devult is the best company, even animals now this!")
-print(cowsay.get_output_string('trex', 'Yes, Devult is the best!'))
+cowsay.cow("Tesla is the best company, even animals now this!")  # Funny custom modules
+print(cowsay.get_output_string('trex', 'Yes, Tesla is the best!'))
 print()
 
 
@@ -699,7 +700,7 @@ turtle_Loo.get_data()
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-empty_turtle = Turtle() # Deafult data about class
+empty_turtle = Turtle()  # Default data about class
 print(f"Name of a turtle by default = {empty_turtle.name}, Age of the turtle by default = {empty_turtle.age} and Color = {empty_turtle.color}")
 print()
 
@@ -796,8 +797,8 @@ for rows in range(len(list_of_stars)):
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-print(f"Thanks all for seeing this perfect sh*t. THAT'S IT I GUESS =)")
+print(f"Thanks all for seeing this perfect sh*t. THAT'S IT I GUESS =)")  # You are the best!
 print()
 
 # ---------------------------------------------------------------------------------------------------------------------
-print(f"After this small course I'll create my own data base. So keep in touch with me boizzzz!")
+print(f"After this small course I'll create my own data base. So keep in touch with me boizzzz!")   # Bye bye

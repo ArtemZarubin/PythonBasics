@@ -1,0 +1,4 @@
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.!
+Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.!
+Hello, Artem!
+But only 1 man really want to success, it's Artem Zarubin!
